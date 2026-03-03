@@ -1,1 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Sora:wght@500;700;800&display=swap");
 @import "tailwindcss";
+
+:root {
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Sora", "Space Grotesk", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #090b10;
+  color: #f5f7fa;
+}
