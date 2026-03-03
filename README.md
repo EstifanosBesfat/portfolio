@@ -1,16 +1,77 @@
-# React + Vite
+# Estifanos Besfat Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, motion-driven personal portfolio built with React, Vite, Tailwind CSS, and Framer Motion.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- https://portfolio-eight-amber-6dudx4tphk.vercel.app/
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio showcases my work as a Full Stack Engineer and Data Scientist, focused on:
 
-## Expanding the ESLint configuration
+- Backend architecture
+- Distributed systems
+- Geospatial engineering
+- Machine learning and applied data science
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Featured Projects
+
+- Real-Time Geospatial Delivery Engine
+- Production-Grade Blog Platform
+- Customer Intelligence & Sales AI
+
+## Tech Stack
+
+- React 19
+- Vite 7
+- Tailwind CSS 4
+- Framer Motion
+- Lucide React
+
+## Getting Started
+
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Run development server
+
+```bash
+npm run dev
+```
+
+### 3. Build for production
+
+```bash
+npm run build
+```
+
+### 4. Preview production build
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```text
+src/
+  App.jsx       # Main portfolio UI
+  data.js       # Profile, skills, and project data
+  index.css     # Global styles and Tailwind imports
+public/
+  estifanosbesfat.jpg
+```
+
+## Contact
+
+- LinkedIn: https://www.linkedin.com/in/estifanos-besfat-797427338/
+- GitHub: https://github.com/EstifanosBesfat
+- Email: estifanosbesfat@gmail.com
+
+## License
+
+This project is licensed under the Apache-2.0 License.
