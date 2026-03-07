@@ -84,5 +84,28 @@ export const projects = [
     },
     icon: BarChart3,
     iconClassName: "text-purple-400"
+  },
+  {
+    id: 4,
+    title: "Distributed API Rate Limiter",
+    category: "System Design",
+    tech: ["Node.js", "Redis", "Lua Scripting", "Docker Compose", "Nginx", "Distributed Systems"],
+    description: "A distributed rate-limiting system built for high-concurrency traffic behind a load balancer.",
+    features: [
+      "Architected a Docker Compose cluster with Nginx load balancing, 3 Node.js API instances, and Redis for shared state.",
+      "Eliminated read-modify-write race conditions by injecting custom Lua scripts into Redis for atomic rate-limit updates.",
+      "Implemented a Sliding Window Log algorithm for precise, production-grade traffic throttling.",
+      "Added tiered policies for API key and IP-based limits to model real SaaS monetization and abuse control."
+    ],
+    links: {
+      backend: "https://github.com/EstifanosBesfat/distributed-rate-limiter",
+      frontend: "",
+      demo: ""
+    },
+    linkLabels: {
+      backend: "GitHub Repository"
+    },
+    icon: Smartphone,
+    iconClassName: "text-cyan-400"
   }
 ];
